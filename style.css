@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+a
+{
+	border-style: none;
+}
+
+img
+{
+	border: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	width: 100%;
+	height: 826px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#banner
+{
+	width:258px;
+	height: 55px;
+	background-repeat: no-repeat;
+	padding-top: 45px;
+	float: left;
+}
+
+
+#verticalmenu
+{
+	
+	width: 206px;
+	height: 427px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#verticalmenu ul
+{
+	margin: 0;
+	padding: 40px 0 0 103px;
+	background: url(images/menu1.jpg);
+	width: 103px;
+	height: 347px;
+}
+
+#verticalmenu li
+{
+	list-style-type: none;
+	float: right;
+	margin-top: 10px;
+}
+
+#verticalmenu li a
+{
+	width: 98px;
+	height: 17px;
+
+	color: #472400;
+	display: block;	
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 5px;
+	line-height: 17px;
+	text-decoration: none;
+	
+}
+
+#verticalmenu li a:hover
+{
+	background-color: #CCC;
+}
+
+.active
+{
+	background-color: #CCC;
+}
+
+#content
+{
+	width: 100%;
+	min-height: 300px;
+	margin-top: 1px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #f2eadd;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.center
+{
+	margin: 0px auto 0px auto;
+	width: 1000px;
+	display: table;
+}
+
+#middle
+{
+	background-color: #FFFFFF;
+	width: 793px;
+	float: left;
+	background: #FFF;
+	min-height: 427px;
+}
+
+h1
+{
+	font-size: 18px;
+	text-align: center;
+	color: #472400;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#text
+{
+	width: 753px;
+	margin: 0 0 17px 20px;;
+	color: #472400;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: left;
+	border-top: 1px solid #472400;
+}
+
+#picture
+{
+	float: right;
+	margin-top: 16px;
+	margin-left: 3px;
+}
+
+#slideshow
+{
+	width: 753px;
+	height: 350px;
+	margin-bottom: 10px;
+
+}
+
+#footer
+{
+	width: 1000px;
+	height: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #472400;
+	font-size: 10px;
+	color: #472400;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+
+#footer ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 190px;
+}
+
+#footer li
+{
+	margin-top: 2px;
+	margin-left: 15px;
+	float: left;
+	display: block;
+}
+
+#verticalmenu img
+{
+	float: right;
+	margin: 2px 2px 0 0;
+}
+
+#maps
+{
+	width: 425px;
+	height: 350px;
+	margin: 20px 0 0 0;
+}
+
+.iframe {
+    border-style: none;
+    margin: 0;
+}
+
+.table {
+    width: 200;
+    border-style: none;
+}
